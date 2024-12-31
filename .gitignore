@@ -1,0 +1,34 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+
+# Node modules (если проект включает фронтенд)
+node_modules/
+
+# Папка с зависимостями Go
+/vendor/
+
+# Файлы IDE
+.idea/
+.vscode/
+
+# Файлы конфигурации
+.env
+
+# Логи
+*.log
+
+# Файлы для GoLand
+*.iml
+
+# Файлы для Windows
+Thumbs.db
+Desktop.ini
+
+# Файлы для macOS
+.DS_Store
